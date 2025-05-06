@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile with Theme Toggle</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="profile-image">
+            <img id="profile-pic" src="images/pass3.jpg" alt="Profile picture">
+            <input type="file" id="image-upload" accept="image/*">
+        </div>
+
+        <div class="info">
+            <input type="text" id="user-name" />
+            <input type="text" id="user-location" />
+            <textarea id="user-bio"></textarea>
+
+            <div class="skills">
+                <h3>Skill Levels</h3>
+
+                <div class="skill">
+                    <label>HTML:</label>
+                    <div class="stars" data-skill="html">
+                        <span class="star" data-value="1">&#9733;</span>
+                        <span class="star" data-value="2">&#9733;</span>
+                        <span class="star" data-value="3">&#9733;</span>
+                        <span class="star" data-value="4">&#9733;</span>
+                        <span class="star" data-value="5">&#9733;</span>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <label>CSS:</label>
+                    <div class="stars" data-skill="css">
+                        <span class="star" data-value="1">&#9733;</span>
+                        <span class="star" data-value="2">&#9733;</span>
+                        <span class="star" data-value="3">&#9733;</span>
+                        <span class="star" data-value="4">&#9733;</span>
+                        <span class="star" data-value="5">&#9733;</span>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <label>JavaScript:</label>
+                    <div class="stars" data-skill="js">
+                        <span class="star" data-value="1">&#9733;</span>
+                        <span class="star" data-value="2">&#9733;</span>
+                        <span class="star" data-value="3">&#9733;</span>
+                        <span class="star" data-value="4">&#9733;</span>
+                        <span class="star" data-value="5">&#9733;</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="attribution">
+            Coded by <a href="#">JeromeKaloki</a>.
+        </div>
+    </div>
+
+    <!-- Theme Toggle -->
+    <button id="theme-toggle">Toggle Theme</button>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
